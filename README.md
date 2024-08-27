@@ -70,12 +70,15 @@ Create the final submission file for the predictions on the test set, and the re
 
 ## **Conclusions**
 **Best Parameters Found:** {'bootstrap': False, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+
 **Best Balanced Accuracy Score During Cross-Validation:** 0.9569
 
 After adjusting the prediction threshold on the validation set:
 
 **Balanced Accuracy Score (Adjusted RF):** 0.7910
+
 **Public Balanced Accuracy Score:** 0.7875
+
 **Private Balanced Accuracy Score:** 0.7928
 
 **Confusion Matrix (Adjusted RF):**
@@ -86,7 +89,9 @@ After adjusting the prediction threshold on the validation set:
 ```
 
 **F1 Score (Adjusted RF):** 0.5920
+
 **Precision (Adjusted RF):** 0.5284
+
 **Recall (Adjusted RF):** 0.6730
 
 These results highlight the effectiveness of the Random Forest model with hyperparameter tuning and class imbalance handling using SMOTE. 
